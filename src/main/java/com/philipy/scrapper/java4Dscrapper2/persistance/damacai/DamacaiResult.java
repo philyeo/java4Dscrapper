@@ -1,18 +1,16 @@
 package com.philipy.scrapper.java4Dscrapper2.persistance.damacai;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
 
-@Getter
-@Setter
+import lombok.*;
+
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class DamacaiResult {
 
     private String id;
@@ -34,7 +32,7 @@ public class DamacaiResult {
     private String _1plus3DJackpot2;
 
     private String dmcJackpot1;
-    private String dmcJackpot2l;
+    private String dmcJackpot2;
 
     @JsonProperty("3DJackpot")
     private String _3DJackpot;
