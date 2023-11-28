@@ -1,10 +1,10 @@
-package com.philipy.scrapper.java4Dscrapper2.persistance.toto;
+package com.philipy.scrapper.java4Dscrapper2.shared.dto.toto;
 
-import javax.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Getter

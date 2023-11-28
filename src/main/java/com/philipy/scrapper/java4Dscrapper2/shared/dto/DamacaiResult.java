@@ -1,4 +1,4 @@
-package com.philipy.scrapper.java4Dscrapper2.persistance.damacai;
+package com.philipy.scrapper.java4Dscrapper2.shared.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

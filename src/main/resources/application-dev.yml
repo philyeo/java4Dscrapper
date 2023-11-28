@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: lotteryscrapper
+  data:
+    mongodb:
+      host: localhost  # Set to 'mongodb' when running within Docker Compose network
+      port: 27017      # Port exposed in Docker Compose
+      database: lottery
+      username: rootuser
+      password: rootpass
+      authentication-database: admin
+
+server:
+  port: 8082
+  servlet:
+    context-path: /api/v1

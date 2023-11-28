@@ -1,15 +1,15 @@
 package com.philipy.scrapper.java4Dscrapper2;
 
 import com.google.gson.Gson;
-import com.philipy.scrapper.java4Dscrapper2.persistance.toto.PowerToto;
-import com.philipy.scrapper.java4Dscrapper2.persistance.toto.StarToto;
-import com.philipy.scrapper.java4Dscrapper2.persistance.toto.SupremeToto;
-import com.philipy.scrapper.java4Dscrapper2.persistance.toto.Toto4D;
-import com.philipy.scrapper.java4Dscrapper2.persistance.toto.Toto4Djackpot;
-import com.philipy.scrapper.java4Dscrapper2.persistance.toto.Toto4Dzodiac;
-import com.philipy.scrapper.java4Dscrapper2.persistance.toto.Toto5D;
-import com.philipy.scrapper.java4Dscrapper2.persistance.toto.Toto6D;
-import com.philipy.scrapper.java4Dscrapper2.persistance.toto.TotoResult;
+import com.philipy.scrapper.java4Dscrapper2.shared.dto.toto.PowerToto;
+import com.philipy.scrapper.java4Dscrapper2.shared.dto.toto.StarToto;
+import com.philipy.scrapper.java4Dscrapper2.shared.dto.toto.SupremeToto;
+import com.philipy.scrapper.java4Dscrapper2.shared.dto.toto.Toto4D;
+import com.philipy.scrapper.java4Dscrapper2.shared.dto.toto.Toto4Djackpot;
+import com.philipy.scrapper.java4Dscrapper2.shared.dto.toto.Toto4Dzodiac;
+import com.philipy.scrapper.java4Dscrapper2.shared.dto.toto.Toto5D;
+import com.philipy.scrapper.java4Dscrapper2.shared.dto.toto.Toto6D;
+import com.philipy.scrapper.java4Dscrapper2.shared.dto.toto.TotoResult;
 import java.util.List;
 import java.util.Optional;
 import java.util.function.BiFunction;
@@ -28,7 +28,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
 
 
-import static com.philipy.scrapper.java4Dscrapper2.EndpointConstants.*;
+import static com.philipy.scrapper.java4Dscrapper2.shared.EndpointConstants.*;
 
 @Slf4j
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class, MongoAutoConfiguration.class, MongoDataAutoConfiguration.class})

@@ -1,4 +1,4 @@
-package com.philipy.scrapper.java4Dscrapper2.persistance.toto;
+package com.philipy.scrapper.java4Dscrapper2.shared.dto.toto;
 
 import java.util.List;
 import java.util.Optional;
